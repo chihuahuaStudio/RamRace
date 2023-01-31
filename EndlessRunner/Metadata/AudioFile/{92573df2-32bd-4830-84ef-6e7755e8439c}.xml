@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{92573df2-32bd-4830-84ef-6e7755e8439c}">
+		<property name="assetPath">
+			<value>Chacracter Sounds/Jump-014.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.6783958333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4931ba7e-8f1b-4bcc-9fa9-94fa4e53c8ff}</destination>
+		</relationship>
+	</object>
+</objects>

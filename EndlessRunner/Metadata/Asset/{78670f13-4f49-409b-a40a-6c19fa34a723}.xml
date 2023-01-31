@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{78670f13-4f49-409b-a40a-6c19fa34a723}">
+		<property name="assetPath">
+			<value>Chacracter Sounds/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4931ba7e-8f1b-4bcc-9fa9-94fa4e53c8ff}</destination>
+		</relationship>
+	</object>
+</objects>

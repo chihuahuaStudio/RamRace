@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{3427774e-eaf3-426d-8dec-cb8f60926ab5}">
+		<property name="assetPath">
+			<value>Chacracter Sounds/Character_Jump_Woosh3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.15790625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4931ba7e-8f1b-4bcc-9fa9-94fa4e53c8ff}</destination>
+		</relationship>
+	</object>
+</objects>

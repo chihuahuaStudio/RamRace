@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerReturn" id="{bbe4676e-407c-4d74-a477-46be3d84c798}">
+		<property name="name">
+			<value>Character Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{63b83b29-9dd1-4d99-9672-e3b39d4a8909}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{01db3e3b-71a8-4446-8827-88330205511a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5869007a-8c2d-4e19-a2bd-51f0bdd9dc70}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{63b83b29-9dd1-4d99-9672-e3b39d4a8909}">
+		<relationship name="effects">
+			<destination>{ea6b55b8-2474-402f-a1e5-38e6fe61cce5}</destination>
+			<destination>{f7228bca-8252-421f-a526-ffd40592be86}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{01db3e3b-71a8-4446-8827-88330205511a}" />
+	<object class="MixerBusFader" id="{ea6b55b8-2474-402f-a1e5-38e6fe61cce5}" />
+	<object class="SFXReverbEffect" id="{f7228bca-8252-421f-a526-ffd40592be86}">
+		<property name="lateDelay">
+			<value>26.5</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-26</value>
+		</property>
+		<property name="dryLevel">
+			<value>-40</value>
+		</property>
+	</object>
+</objects>
